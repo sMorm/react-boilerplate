@@ -45,5 +45,6 @@ module.exports = {
     }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
-  ]
+  ],
+  devServer: { historyApiFallback: true } // router fallback
 }
